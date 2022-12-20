@@ -238,7 +238,7 @@ if __name__ == '__main__':
     }
 
     # 菜单
-    parser = argparse.ArgumentParser(description='指纹识别 help')
+    parser = argparse.ArgumentParser(description='web_finger help')
     parser.add_argument("-l", "--LocalRemote", help="l or r", default='')
     parser.add_argument("-u", "--url", help="url", default='')
     parser.add_argument("-f", "--file", help="file url", default='')
