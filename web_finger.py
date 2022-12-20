@@ -247,7 +247,7 @@ if __name__ == '__main__':
     lr = args.LocalRemote
     lr_flag = 0
     if lr == 'r':
-        sqljson_url = 'http://10.211.55.3/sql.json'
+        sqljson_url = 'http://113.125.57.126:56745/sql.json'
         sqljson = requests.get(url=sqljson_url)
         lr_flag = 1
     uri = args.url
