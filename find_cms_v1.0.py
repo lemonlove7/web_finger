@@ -14,7 +14,7 @@ import queue
 
 def read_config():
     if lr_flag==0:
-        config_file = os.path.join("cmsfofa.json")
+        config_file = os.path.join("web_finger.json")
         with open(config_file, 'r') as f:
             mark_list = json.load(f)
         return mark_list
